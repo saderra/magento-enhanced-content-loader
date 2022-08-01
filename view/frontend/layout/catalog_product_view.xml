@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright © Magento, Inc. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+-->
+<page layout="1column" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <body>
+
+        <referenceContainer name="content">
+       		 <block class="Saderra\EnhancedContent\Block\Product\View\Ec" name="product.view.ec" template="Saderra_EnhancedContent::product/view/ec.phtml" before="product.info.details" />
+       	</referenceContainer>       
+
+    </body>
+</page>
