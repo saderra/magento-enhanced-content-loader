@@ -1,5 +1,6 @@
+<?php if ($block->getIframeURL()) : ?>
 <div style="padding:25px 0; clear:both;">
-    <iframe src="<?php echo $block->getIframeURL(); ?>"
+    <iframe src="<?= $block->getIframeURL(); ?>"
             id="enhancedContent"
             class="gh-fit gf-fullheight"
             frameborder="0"
@@ -8,6 +9,6 @@
             width="100%">
     </iframe> 
 </div>
-
+<?php endif; ?>
 
 
